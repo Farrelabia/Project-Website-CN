@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+  height: 1000vh;
+  margin: 0;
+}
+
+.navbar-all {
+  background-color: #F4CA16;
+  border-radius: 0px 0px 60px 60px;
+  z-index: 2;
+}
+
+.nav-link {
+  font-family: "Mukta Malar", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+
+.hero {
+  background-image: url(../img/agis-cantik-sedunia.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 40rem;
+  background-size: 100% 100%;
+  transform: translateY(-60px);
+  z-index: 1;
+}
+
+.hero-text {
+  padding-top: 120px;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+}
+
+.hero-text h1, .hero-text h4 {
+  font-family: "Mukta Malar", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+.CN {
+  color: #F4CA16;
+}
+
+.hero-image {
+  margin-top: 130px;
+  width: 300px;
+  height: 370px;
+  border: 0px solid red;
+  border-radius: 200px 200px 0 0;
+}
+
+.hero-circle {
+  width: 210px;
+  height: 210px;
+  background-color: #F4CA16;
+  border-radius: 50%;
+  margin-top: 345px;
+  margin-left: -100px;
+  z-index: 3;
+  position: absolute;
+}
+
+.lok {
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.fa-location-dot{
+  margin-left: -12px;
+}
+
+.hero-btn {
+  background-color: #F4CA16;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 16px;
+  font-family: "Mukta Malar", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hero-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-info {
+  background-color: #A6BF60;
+  /* margin: auto; */
+  margin-top: -60px;
+}
+
+.info-card-detail {
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #F4CA16;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+.card-icon {
+  font-size: 2.4rem;
+  margin-top: 28px;
+}
+
+.card-info-title, .card-info-desc {
+  font-family: "Mukta Malar", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-info-title {
+  padding-top: 0.7rem;
+}
+
+.card-info-desc {
+  font-size: 1.4rem;
+  color: #F4CA16;
+}
